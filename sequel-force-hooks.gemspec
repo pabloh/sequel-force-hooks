@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Sequel extension that allows savepoints to force running after_commit and after_rollback hooks'
   spec.homepage      = 'https://github.com/pabloh/sequel-force-hooks'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new('>= 1.9.2')
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/pabloh/sequel-force-hooks'
